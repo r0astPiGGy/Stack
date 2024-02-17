@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1968bca2829245ec96a411584ea8721f, type: 3}
+  m_Name: Theme 7
+  m_EditorClassIdentifier: 
+  towerColor: {r: 0.9372549, g: 0.88235295, b: 0.81960785, a: 0}
+  tileColor: {r: 0.654902, g: 0.50980395, b: 0.58431375, a: 0}
+  backgroundTopColor: {r: 0.24705882, g: 0.18039216, b: 0.24313726, a: 0}
+  backgroundBottomColor: {r: 0.2, g: 0.11372549, b: 0.17254902, a: 0}

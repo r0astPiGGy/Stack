@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.animated-visibility {
+    transition: opacity 0.5s ease-out;
+}
+
+.animated-visibility.hidden {
+    transition-duration: 0.25s;
+    opacity: 0;
+}
+
+.animated-visibility.visible {
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+#game-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+#label-container {
+    padding-top: 32%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spacer {
+    display: flex;
+    flex-grow: 1;
+}
+
+#tap-to-restart {
+    color: white;
+    font-size: 36px;
+    letter-spacing: -3px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#bottom-bar {
+    width: 100%;
+    height: 310px;
+    align-self: flex-end;
+    --gradient-to: rgb(0, 0, 0);
+    --gradient-from: rgba(0, 0, 0, 0);
+    --gradient-direction: vertical;
+}
+
+#new-record {
+    font-size: 42px;
+    /*letter-spacing: 6px;*/
+}
+
+#high-score-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#crown-icon {
+    height: 58px;
+    width: 58px;
+    margin-right: 4px;
+    background-image: url("/Assets/Art/crown.svg");
+}
+
+#high-score {
+    font-size: 70px;
+    /*letter-spacing: 6px;*/
+}
+
+#score {
+    font-size: 118px;
+    /*letter-spacing: 10px;*/
+}
+
+#restart {
+    
+}

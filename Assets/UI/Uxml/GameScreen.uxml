@@ -1,0 +1,27 @@
+<ui:UXML 
+        xmlns:ui="UnityEngine.UIElements"
+        xmlns:uie="UnityEditor.UIElements"
+        xsi="http://www.w3.org/2001/XMLSchema-instance"
+        engine="UnityEngine.UIElements"
+        editor="UnityEditor.UIElements"
+        noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <ui:Style src="../Uss/GameScreen.uss"/>
+    <ui:VisualElement name="game-container">
+        <ui:VisualElement name="label-container">
+            <ui:Label name="score" class="animated-visibility hidden" text="0"/>
+            <ui:VisualElement name="high-score-container" class="animated-visibility hidden" style="display: none">
+                <ui:VisualElement name="crown-icon"/>
+                <ui:Label name="high-score" text="120"/>
+            </ui:VisualElement>
+            <ui:Label name="new-record" text="NEW RECORD" class="animated-visibility hidden" style="display: none"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="spacer"/>
+        <ui:VisualElement name="footer" class="animated-visibility hidden" style="display: none">
+            <ui:Label name="tap-to-restart" text="TAP TO RESTART"/>
+            <UI.Components.GradientElement name="bottom-bar">
+            
+            </UI.Components.GradientElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

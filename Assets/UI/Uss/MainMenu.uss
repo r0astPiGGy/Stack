@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    -unity-font-definition: url("/Assets/_ThirdParty/Font/Urbanist/Urbanist-ExtraLight SDF.asset");
+}
+
+.screen {
+    transition: opacity 0.5s ease-out;
+    transition-delay: 0.25s;
+}
+
+.screen-visible {
+    opacity: 1;
+}
+
+.screen-hidden {
+    transition-duration: 0.25s;
+    transition-delay: 0s;
+    opacity: 0;
+}
+
+#container {
+    display: flex;
+    flex-grow: 0;
+    height: 100%;
+    width: 100%;
+}

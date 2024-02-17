@@ -1,0 +1,16 @@
+<ui:UXML 
+        xmlns:ui="UnityEngine.UIElements"
+        xmlns:uie="UnityEditor.UIElements"
+        xsi="http://www.w3.org/2001/XMLSchema-instance"
+        engine="UnityEngine.UIElements"
+        editor="UnityEditor.UIElements"
+        noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <ui:Template name="HomeScreen" src="HomeScreen.uxml"/>
+    <ui:Template name="GameScreen" src="GameScreen.uxml"/>
+    <ui:Style src="../Uss/MainMenu.uss"/>
+    <ui:VisualElement name="container">
+        <ui:Instance template="HomeScreen" name="HomeScreen" class="screen screen-hidden" style="position: absolute; height: 100%; width: 100%; display: flex;"/>
+        <ui:Instance template="GameScreen" name="GameScreen" class="screen" style="position: absolute; height: 100%; width: 100%; display: flex;"/>
+    </ui:VisualElement>
+</ui:UXML>
